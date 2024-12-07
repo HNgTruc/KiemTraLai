@@ -172,8 +172,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("recipient").textContent = recipient;
   document.getElementById("phone").textContent = phone;
   document.getElementById("address").textContent = address;
-  document.getElementById("payment-method").textContent =
-    paymentMethod;
+  document.getElementById("payment-method").textContent = paymentMethod;
   document.getElementById("total").textContent = `$${totalPrice.toFixed(2)}`;
 
   // Hiển thị các sản phẩm trong đơn hàng
